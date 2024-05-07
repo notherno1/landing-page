@@ -4,6 +4,8 @@ body {
     display: flex;
     margin: 0;
     font-family: Roboto, sans-serif;
+    flex-direction: column;
+    flex: 1;
 }
 
 ul {
@@ -43,4 +45,21 @@ a {
     text-decoration: none;
     color: #f9faf8;
     align-self: flex-end;
+}
+
+.first-section
+{
+    display: flex;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    justify-content:space-between;
+    flex-shrink: 0;
+    align-self: center;
+    padding-left: 12%;
+    gap: 50px;
+}
+
+.first-left {
+    margin-left: 4%;
+    flex-basis: 50%;
 }
