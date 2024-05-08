@@ -115,3 +115,50 @@ button {
     /* justify-content: center; */
     
 }
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.headersecond {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.container-information {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 18px;
+    padding-bottom: 60px;
+}
+
+.info {
+    width: 15%
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    
+}
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.who {
+    text-align: right;
+    padding-right: 18%;
+}
