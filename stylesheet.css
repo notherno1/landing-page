@@ -78,11 +78,13 @@ a {
     flex-direction: column;
     justify-content: space-between;
     padding-right: 8%;
+    gap: 8px;
 }
 
 .signup-button {
     display: flex;
     padding: 5px;
+    padding-top: 15px;
     flex-shrink: 0;
 }
 
@@ -174,7 +176,7 @@ button {
     font-weight:lighter;
     color: #1d2937;
     width: 55%;
-    
+    padding-bottom: 6px;
     margin-top: 100px;
     
 }
